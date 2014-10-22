@@ -1,0 +1,14 @@
+* You should install jruby.  I used ruby-install.
+* You should put db2jcc4.jar in your jruby/lib directory.
+
+To experiment:
+
+    irb -r ./test
+
+Then,
+
+    User.all
+    User.create email: 'nobody@example.org'
+
+
+&tc.
